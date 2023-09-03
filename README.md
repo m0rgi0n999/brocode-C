@@ -1,0 +1,2 @@
+# brocode-C
+learning C
