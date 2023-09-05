@@ -10,18 +10,23 @@ int main(){
 
     int x = 10;
 
+    // addition
     // x = x + 2;
     // x+=2;
 
+    // decrement
     // x = x - 3;
     // x-=3;
 
+    // multiply
     // x = x * 4;
     // x*=4;
 
+    // division
     // x = x / 5;
     // x/=5;
 
+    //modulus
     // x = % 2;
     // x%=2;
 
