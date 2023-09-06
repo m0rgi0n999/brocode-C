@@ -27,7 +27,7 @@ int main(){
     // x/=5;
 
     //modulus
-    // x = % 2;
+    // x = x % 2;
     // x%=2;
 
     return 0;
