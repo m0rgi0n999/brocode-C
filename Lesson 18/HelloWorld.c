@@ -1,7 +1,18 @@
 #include <stdio.h>
 
 int main(){
-    printf("I like pizza!\n");
-    printf("It's really good!\n");
+    
+    // logical operators = && (AND) checks if two conditions are true
+    
+    float temp = 25;
+    bool sunny = false;
+
+    if(temp >= 0 && temp <= 30 && sunny){
+        printf("\nThe weather is good!");
+    }
+    else{
+        printf("\nThe weather is bad!");
+    }
+
     return 0;
 }

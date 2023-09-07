@@ -1,7 +1,22 @@
 #include <stdio.h>
 
 int main(){
-    printf("I like pizza!\n");
-    printf("It's really good!\n");
+    
+    // logical operator = || (OR) checks if at least one condition is true
+
+    float temp = 25;
+
+    if(temp <= 0 || temp >= 30){
+        printf("\nThe weather is bad!");
+    }
+    //else if(temp >= 30){
+    //    printf("\nThe weather is bad!");
+    //}
+    else{
+        printf("\nThe weather is good!");
+    }
+
+
+
     return 0;
 }

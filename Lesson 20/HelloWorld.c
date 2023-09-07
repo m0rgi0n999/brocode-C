@@ -1,7 +1,18 @@
 #include <stdio.h>
+#include <stdbool.h>
 
 int main(){
-    printf("I like pizza!\n");
-    printf("It's really good!\n");
+    
+    // logical operators = ! (NOT) reverses the state of a condition
+
+    bool sunny = true;
+
+    if(!sunny){
+        printf("\nIt's cloudy outside!");
+    }
+    else{
+        printf("\nIt's sunny outside!");
+    }
+
     return 0;
 }
