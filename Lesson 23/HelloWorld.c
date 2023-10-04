@@ -1,7 +1,17 @@
 #include <stdio.h>
 
+double square(double x)
+{
+    double result = x * x;
+    return result;
+}
+
 int main(){
-    printf("I like pizza!\n");
-    printf("It's really good!\n");
+
+    // return = return a value back to a calling function
+
+    double x = square(3.14);
+    printf("%lf", x);
+    
     return 0;
 }
