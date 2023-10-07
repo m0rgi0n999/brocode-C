@@ -2,8 +2,9 @@
 
 double square(double x)
 {
-    double result = x * x;
-    return result;
+    // double result = x * x;
+    // return result;
+    return x * x;
 }
 
 int main(){

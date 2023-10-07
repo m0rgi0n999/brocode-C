@@ -1,7 +1,14 @@
 #include <stdio.h>
 
 int main(){
-    printf("I like pizza!\n");
-    printf("It's really good!\n");
+
+    // for loop = repeats a section of code a limited amount of times
+
+    for(int i = 1; i <= 10; i+=2)
+    {
+        //printf("test\n");
+        printf("%d\n", i);
+    }
+
     return 0;
 }
