@@ -1,7 +1,18 @@
 #include <stdio.h>
 
 int main(){
-    printf("I like pizza!\n");
-    printf("It's really good!\n");
+    
+    // array = a data structure that can store many values of the same data type.
+
+    double prices[5];
+
+    prices[0] = 5.0;
+    prices[1] = 10.0;
+    prices[2] = 15.0;
+    prices[3] = 25.0;
+    prices[4] = 20.0;
+
+    printf("$%.2lf", prices[2]);
+
     return 0;
 }

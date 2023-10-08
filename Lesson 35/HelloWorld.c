@@ -1,7 +1,17 @@
 #include <stdio.h>
+#include <string.h>
 
 int main(){
-    printf("I like pizza!\n");
-    printf("It's really good!\n");
+    
+    char cars[][10] = {"Mustang", "Covette", "Camaro"};
+
+    //cars[0] = "Tesla";
+    //strcpy(cars[0], "Tesla");
+
+    for(int i = 0; i < sizeof(cars)/sizeof(cars[0]);i++)
+    {
+        printf("%s\n", cars[i]);
+    }
+
     return 0;
 }
