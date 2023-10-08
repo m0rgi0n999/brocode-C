@@ -1,7 +1,13 @@
 #include <stdio.h>
 
 int main(){
-    printf("I like pizza!\n");
-    printf("It's really good!\n");
+
+    FILE *pF = fopen("test.txt", "w");
+
+    fprintf(pF, "Spongebob Squarepants\n");
+
+    fclose(pF);
+
+    printf("\n");
     return 0;
 }
